@@ -24,10 +24,9 @@ public class Pessoa
     // SOBRECARGA DE CONSTRUTOR
     public Pessoa(int id, string nome, int idade, string genero, string endereco)
     {
-        if (id <= 0)
-        {
-            throw new InvalidOperationException();
-        }
+        DomainExceptionValidation.When(id < 0, "O ID não pode ser negativo.");
+        DomainExceptionValidation.When(string.IsNullOrEmpty(nome), "O nome é obrigatório.");
+        DomainExceptionValidation.When(string.IsNullOrEmpty(endereco), "O endereco é obrigatório.");
 
         if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(genero) || string.IsNullOrEmpty(endereco))
         {
