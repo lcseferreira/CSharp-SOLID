@@ -13,11 +13,13 @@ namespace SOLID.POO
             return numero1 + numero2;
         }
 
+        // Sobrecarga de método
         public static double Somar(double numero1, double numero2)
         {
             return numero1 + numero2;
         }
 
+        // Sobrecarga de método aceitando infinitos parâmetros (params)
         public static int Somar(params int[] numeros)
         {
             int soma = 0;
@@ -28,6 +30,12 @@ namespace SOLID.POO
             }
 
             return soma;
+        }
+
+        // Sobrecarga de método com parâmetros opcionais
+        public static int SomarOpcional(int numero1, int numero2, int opcional = 10)
+        {
+            return numero1 + numero2 + opcional;
         }
 
     }
