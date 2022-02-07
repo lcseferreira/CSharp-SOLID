@@ -7,18 +7,23 @@ class Program
     static void Main(string[] args)
     {
         // Instânciando uma pessoa
-        Pessoa pessoa1 = new Pessoa();
+        Pessoa pessoa1 = new Pessoa(0, "Lucas", 24, "Masculino", "Rua Gaspero Fiamoncine");
 
         // Acessando uma propriedade da classe
-        pessoa1.nome = "Lucas";
-        pessoa1.idade = 24;
-        pessoa1.genero = "Masculino";
+        // pessoa1.Nome = "Lucas";
+        pessoa1.Idade = 24;
+        pessoa1.Endereco = "Rua João Gomes Frossard";
 
         // Instânciando uma pessoa com construtor
-        Pessoa pessoa2 = new Pessoa("Eduardo", 48, "Masculino");
+        Pessoa pessoa2 = new Pessoa(1, "Eduardo", 48, "Masculino", "Rua Gasepero Fiamoncine");
 
         pessoa1.Identificar();
         pessoa2.Identificar();
+
+        Console.WriteLine();
+
+        Console.WriteLine(pessoa1);
+        Console.WriteLine(pessoa2);
 
         /*** Exemplo THIS ***/
         Exemplo exemplo = new Exemplo("This");
