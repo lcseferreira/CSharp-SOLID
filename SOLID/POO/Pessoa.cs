@@ -8,15 +8,15 @@ public class Pessoa
     public string genero;
 
     // CONSTRUCTOR = construtor
+    public Pessoa() { }
+
+    // SOBRECARGA DE CONSTRUTOR
     public Pessoa(string nome, int idade, string genero)
     {
         this.nome = nome;
         this.idade = idade;
         this.genero = genero;
     }
-
-    // SOBRECARGA DE CONSTRUTOR
-    public Pessoa() { }
 
     // METHOD = métodos
     public void Identificar()

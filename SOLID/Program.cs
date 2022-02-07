@@ -19,5 +19,8 @@ class Program
 
         pessoa1.Identificar();
         pessoa2.Identificar();
+
+        /*** Exemplo THIS ***/
+        Exemplo exemplo = new Exemplo("This");
     }
 }
