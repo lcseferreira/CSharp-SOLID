@@ -40,7 +40,7 @@ public class Pessoa
         Endereco = endereco;
     }
 
-    // METHOD = métodos
+    // METHOD = método
     public void Identificar()
     {
         Console.WriteLine($"Olá, sou o {Nome}, tenho {Idade} anos e sou do sexo {Genero}.");

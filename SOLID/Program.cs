@@ -27,5 +27,11 @@ class Program
 
         /*** Exemplo THIS ***/
         Exemplo exemplo = new Exemplo("This");
+
+        /*** Exemplo sobrecarga de métodos ***/
+
+        Console.WriteLine(SobrecargaMetodos.Somar(10, 20));
+        Console.WriteLine(SobrecargaMetodos.Somar(10.0, 20.0));
+        Console.WriteLine(SobrecargaMetodos.Somar(10, 20, 30, 40, 50, 60, 70, 80, 90, 100));
     }
 }
