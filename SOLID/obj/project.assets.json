@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lcsef\\Documents\\Workspaces\\dotnet-udemy\\SOLID\\SOLID\\SOLID.csproj",
-      "projectName": "SOLID",
-      "projectPath": "C:\\Users\\lcsef\\Documents\\Workspaces\\dotnet-udemy\\SOLID\\SOLID\\SOLID.csproj",
+      "projectUniqueName": "C:\\Users\\lcsef\\Documents\\Workspaces\\dotnet-udemy\\SOLID\\SOLID\\POO.csproj",
+      "projectName": "POO",
+      "projectPath": "C:\\Users\\lcsef\\Documents\\Workspaces\\dotnet-udemy\\SOLID\\SOLID\\POO.csproj",
       "packagesPath": "C:\\Users\\lcsef\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lcsef\\Documents\\Workspaces\\dotnet-udemy\\SOLID\\SOLID\\obj\\",
       "projectStyle": "PackageReference",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

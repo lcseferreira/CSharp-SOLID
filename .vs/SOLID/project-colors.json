@@ -3,7 +3,7 @@
   "ProjectMap": {
     "4a708482-6c24-4ddd-9ffa-4e5852f8cb62": {
       "ProjectGuid": "4a708482-6c24-4ddd-9ffa-4e5852f8cb62",
-      "DisplayName": "SOLID",
+      "DisplayName": "POO",
       "ColorIndex": 0
     },
     "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
@@ -15,7 +15,12 @@
       "ProjectGuid": "57672b70-95a3-4321-b9f9-3f020419cc1b",
       "DisplayName": "ConsoleApp1",
       "ColorIndex": 1
+    },
+    "39dfe83e-4ff4-4c69-9233-4f97bfff5fb3": {
+      "ProjectGuid": "39dfe83e-4ff4-4c69-9233-4f97bfff5fb3",
+      "DisplayName": "UML",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

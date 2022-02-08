@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UML</id>
+    <version>1.0.0</version>
+    <authors>UML</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\UML\bin\Debug\net6.0\UML.runtimeconfig.json" target="lib\net6.0\UML.runtimeconfig.json" />
+    <file src="C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\UML\bin\Debug\net6.0\UML.dll" target="lib\net6.0\UML.dll" />
+  </files>
+</package>
