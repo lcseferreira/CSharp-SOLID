@@ -1,4 +1,5 @@
 ﻿using SOLID.POO;
+using SOLID.POO.Casting;
 using SOLID.POO.Heranca;
 
 namespace SOLID;
@@ -55,6 +56,51 @@ class Program
         ContaPoupanca contapp1 = new ContaPoupanca(1, 3500);
 
         Console.WriteLine(contapp1.GetSaldo());
+
+        Console.WriteLine();
+
+        /*** Casting ***/
+        // UpCasting = conversão do mais específico (classe filha) para o mais abstrato (classe pai)
+        Circulo c1 = new Circulo();
+        Forma f1 = c1;  // Conversão implícita
+
+        Console.WriteLine(f1 == c1);
+        f1.Desenhar();
+
+
+        // DownCasting = conversão do mais abstrato (classe pai) para o mais específico (classe filha)
+        Circulo c2 = (Circulo)f1;   // Conversão explícita
+
+        Console.WriteLine(f1 == c2);
+        c2.Desenhar();
+
+        // Usando o AS
+        Forma f3 = new Forma();
+        Circulo c3 = f3 as Circulo; // O AS retorna null se a conversão não for possível
+
+        if (c3 != null)
+        {
+            c3.Desenhar();
+        }
+        else
+        {
+            Console.WriteLine("Não foi possível fazer a conversão.");
+        }
+
+        // Usando o IS
+        Circulo c4 = new Circulo();
+
+        // O IS retorna true ou false
+        if (c4 is Forma)
+        {
+            Forma f4 = c4;
+            f4.Desenhar();
+        }
+        else
+        {
+            Console.WriteLine("c4 não é uma forma.");
+        }
+
 
     }
 }
