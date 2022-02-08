@@ -1,4 +1,5 @@
 ﻿using SOLID.POO;
+using SOLID.POO.Heranca;
 
 namespace SOLID;
 
@@ -46,6 +47,14 @@ class Program
         var texto = "teste método extensão";
 
         Console.WriteLine(texto.CapsLockPrimeiraLetra());
+
+        Console.WriteLine();
+
+        /*** Herança ***/
+        // A ContaPoupanca herda de Conta, por isso ela vai executar o construtor da classe pai primeiro
+        ContaPoupanca contapp1 = new ContaPoupanca(1, 3500);
+
+        Console.WriteLine(contapp1.GetSaldo());
 
     }
 }
