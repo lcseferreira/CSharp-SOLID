@@ -36,7 +36,16 @@ class Program
         Console.WriteLine(SobrecargaMetodos.Somar(10.0, 20.0));
         Console.WriteLine(SobrecargaMetodos.Somar(10, 20, 30, 40, 50, 60, 70, 80, 90, 100));
 
+        // Usando argumentos nomeados
         Console.WriteLine(SobrecargaMetodos.SomarOpcional(numero1: 10, numero2: 20));
         Console.WriteLine(SobrecargaMetodos.SomarOpcional(numero1: 10, numero2: 20, opcional: 30));
+
+        Console.WriteLine();
+
+        // Usando método de extensão
+        var texto = "teste método extensão";
+
+        Console.WriteLine(texto.CapsLockPrimeiraLetra());
+
     }
 }
