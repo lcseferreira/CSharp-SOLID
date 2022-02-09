@@ -15,7 +15,7 @@ namespace UML.Banco
         public DateTime DataAniversario { get; set; }
         public decimal Rendimentos { get; private set; }
 
-        public void CreditoJutos(decimal valor)
+        public void CreditoJuros(decimal valor)
         {
             Saldo += valor;
         }
