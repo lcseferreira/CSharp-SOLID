@@ -1,6 +1,7 @@
 ﻿using UML.Banco;
 using UML.ClasseAbstrata;
 using UML.ClasseSealed;
+using UML.Interface;
 
 var contaPoupanca = new ContaPoupanca(1, "Lucas Eduardo Ferreira da Rosa");
 
@@ -41,3 +42,12 @@ CalculaSoma soma = new CalculaSoma();
 
 var resultado = soma.Somar(50, 50, 30, 70);
 Console.WriteLine($"Resultado da operação Somar da sealed class CalculaSoma: {resultado}");
+
+Console.WriteLine();
+
+/*** Treinando interfaces ***/
+GravarJSON gravarJSON = new GravarJSON();
+GravarXML gravarXML = new GravarXML();
+
+gravarJSON.GravarArquivo();
+gravarXML.GravarArquivo();
