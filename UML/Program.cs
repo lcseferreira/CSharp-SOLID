@@ -1,5 +1,6 @@
 ﻿using UML.Banco;
 using UML.ClasseAbstrata;
+using UML.ClasseSealed;
 
 var contaPoupanca = new ContaPoupanca(1, "Lucas Eduardo Ferreira da Rosa");
 
@@ -32,3 +33,11 @@ quadrado.CalcularPerimetro();
 Console.WriteLine($"A área do quadrado é: {quadrado.Area}");
 Console.WriteLine($"O perímetro do quadrado é: {quadrado.Perimetro}");
 Console.WriteLine($"A cor do quadrado é: {quadrado.Cor}");
+
+Console.WriteLine();
+
+/*** Instânciando uma sealed class ***/
+CalculaSoma soma = new CalculaSoma();
+
+var resultado = soma.Somar(50, 50, 30, 70);
+Console.WriteLine($"Resultado da operação Somar da sealed class CalculaSoma: {resultado}");
