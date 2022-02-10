@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Exercicios.Exercicio5.Constantes">
+    <Position X="0.5" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\Constantes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exercicios.Exercicio5.ClienteComum">
+    <Position X="5.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\ClienteComum.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Exercicios.Exercicio5.ClienteEspecial">
+    <Position X="7.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\ClienteEspecial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Exercicios.Exercicio5.ClienteVIP">
+    <Position X="10.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\ClienteVIP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Exercicios.Exercicio5.ClienteNaoRegistrado">
+    <Position X="12.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\ClienteNaoRegistrado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Exercicios.Exercicio5.CalculaDescontoStatusContaFactory">
+    <Position X="5.25" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\CalculaDescontoStatusContaFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Exercicios.Exercicio5.GerenciadorDeDesconto">
+    <Position X="9.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIg=</HashCode>
+      <FileName>Exercicio5\GerenciadorDeDesconto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exercicios.Exercicio5.CalculaDescontoFidelidade">
+    <Position X="12.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\CalculaDescontoFidelidade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Exercicios.Exercicio5.ICalculaDescontoStatusConta">
+    <Position X="9.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\ICalculaDescontoStatusConta.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Exercicios.Exercicio5.ICalculaDescontoStatusContaFactory">
+    <Position X="5.25" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\ICalculaDescontoStatusContaFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Exercicios.Exercicio5.ICalculaDescontoFidelidade">
+    <Position X="12.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Exercicio5\ICalculaDescontoFidelidade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Exercicios.Exercicio5.StatusContaCliente">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAAAQAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Exercicio5\StatusContaCliente.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
