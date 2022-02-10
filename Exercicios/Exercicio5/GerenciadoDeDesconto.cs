@@ -30,6 +30,9 @@ namespace Exercicios.Exercicio5
                 case StatusContaCliente.ClienteVIP:
                     precoAposDesconto = (precoProduto - (0.5M * precoProduto)) - descontPorFidelidade * (precoProduto - (0.5M * precoProduto));
                     break;
+
+                default:
+                    throw new NotImplementedException();
             }
 
             return precoAposDesconto;
