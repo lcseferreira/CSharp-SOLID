@@ -2,6 +2,7 @@
 using UML.ClasseAbstrata;
 using UML.ClasseSealed;
 using UML.Interface;
+using UML.InterfaceAbstract;
 using UML.InterfacePratica;
 
 var contaPoupanca = new ContaPoupanca(1, "Lucas Eduardo Ferreira da Rosa");
@@ -61,3 +62,17 @@ registraOcorrenciaConsole.Registrar("Registro console");
 
 var registraOcorrenciaArquivo = new RegistraOcorrencia(new RegistrarArquivo(@"C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\teste.txt"));
 registraOcorrenciaArquivo.Registrar("Registro arquivo");
+
+Console.WriteLine();
+
+/*** Interface x Classe abstrata ***/
+// Interface
+var myCircle = new CirculoInt();
+myCircle.Desenhar();
+myCircle.Identificar();
+
+Console.WriteLine();
+
+var mySquare = new QuadradoAbs("Square");
+mySquare.Desenhar();
+mySquare.Identificar();
