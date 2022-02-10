@@ -76,3 +76,11 @@ Console.WriteLine();
 var mySquare = new QuadradoAbs("Square");
 mySquare.Desenhar();
 mySquare.Identificar();
+
+Console.WriteLine();
+
+// Tipo interface para usar default members
+IFigura defaultMembers = new CirculoInt();
+defaultMembers.Desenhar();
+// Método padrão
+defaultMembers.Duplicar();

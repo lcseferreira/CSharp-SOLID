@@ -16,7 +16,7 @@ namespace UML.InterfaceAbstract
         void Desenhar();
         void Identificar();
 
-        // A partir da versão 8.0 do C#, interfaces podem implementar métodos completos
+        // A partir da versão 8.0 do C#, interfaces podem conter implementação padrão (default members)
         void Duplicar()
         {
             Console.WriteLine("Duplicando Figura");
