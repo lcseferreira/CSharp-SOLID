@@ -8,11 +8,17 @@ namespace Exercicios.Exercicio5
 {
     internal class GerenciadorDeDesconto
     {
+        // Aplicando DIP - Dependency Inversion Principle: dependa de abstrações e não de implementações
+        private readonly ICalculaDescontoFidelidade descontoFidelidade;
+
+        public GerenciadorDeDesconto(ICalculaDescontoFidelidade _descontoFidelidade)
+        {
+            descontoFidelidade = _descontoFidelidade;
+        }
+
         public decimal AplicarDesconto(decimal precoProduto, StatusContaCliente statusContaCliente, int tempoDaContaEmAnos)
         {
             decimal precoAposDesconto = 0;
-            decimal descontPorFidelidade = (tempoDaContaEmAnos > Constantes.DESCONTO_MAXIMO_POR_FIDELIDADE) ?
-                (decimal)Constantes.DESCONTO_MAXIMO_POR_FIDELIDADE / 100 : (decimal)tempoDaContaEmAnos / 100;
 
             switch (statusContaCliente)
             {
@@ -22,17 +28,17 @@ namespace Exercicios.Exercicio5
 
                 case StatusContaCliente.ClienteComum:
                     precoAposDesconto = (precoProduto - (Constantes.DESCONTO_CLIENTE_COMUM * precoProduto));
-                    precoAposDesconto -= (descontPorFidelidade * precoAposDesconto);
+                    descontoFidelidade.AplicarDescontoFidelidade(preco: precoProduto, tempoDeContaEmAnos: tempoDaContaEmAnos);
                     break;
 
                 case StatusContaCliente.ClienteEspecial:
                     precoAposDesconto = (precoProduto - (Constantes.DESCONTO_CLIENTE_ESPECIAL * precoProduto));
-                    precoAposDesconto -= (descontPorFidelidade * precoAposDesconto);
+                    descontoFidelidade.AplicarDescontoFidelidade(preco: precoProduto, tempoDeContaEmAnos: tempoDaContaEmAnos);
                     break;
 
                 case StatusContaCliente.ClienteVIP:
                     precoAposDesconto = (precoProduto - (Constantes.DESCONTO_CLIENTE_VIP * precoProduto));
-                    precoAposDesconto -= (descontPorFidelidade * precoAposDesconto);
+                    descontoFidelidade.AplicarDescontoFidelidade(preco: precoProduto, tempoDeContaEmAnos: tempoDaContaEmAnos);
                     break;
 
                 default:
