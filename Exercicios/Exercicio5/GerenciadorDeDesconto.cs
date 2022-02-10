@@ -10,40 +10,21 @@ namespace Exercicios.Exercicio5
     {
         // Aplicando DIP - Dependency Inversion Principle: dependa de abstrações e não de implementações
         private readonly ICalculaDescontoFidelidade descontoFidelidade;
+        private readonly ICalculaDescontoStatusContaFactory descontoStatusConta;
 
-        public GerenciadorDeDesconto(ICalculaDescontoFidelidade _descontoFidelidade, ICalculaDescontoStatusConta _descontoPorStatusConta)
+        public GerenciadorDeDesconto(ICalculaDescontoFidelidade _descontoFidelidade, ICalculaDescontoStatusContaFactory _descontoStatusConta)
         {
             descontoFidelidade = _descontoFidelidade;
+            descontoStatusConta = _descontoStatusConta;
         }
 
         public decimal AplicarDesconto(decimal precoProduto, StatusContaCliente statusContaCliente, int tempoDaContaEmAnos)
         {
             decimal precoAposDesconto = 0;
 
-            switch (statusContaCliente)
-            {
-                case StatusContaCliente.NaoRegistrado:
-                    precoAposDesconto = new ClienteNaoRegistrado().AplicarDescontoStatusConta(precoProduto);
-                    break;
+            precoAposDesconto = descontoStatusConta.GetCalculoDescontoStatusConta(statusContaCliente).AplicarDescontoStatusConta(precoProduto);
 
-                case StatusContaCliente.ClienteComum:
-                    precoAposDesconto = new ClienteComum().AplicarDescontoStatusConta(precoProduto);
-                    descontoFidelidade.AplicarDescontoFidelidade(preco: precoProduto, tempoDeContaEmAnos: tempoDaContaEmAnos);
-                    break;
-
-                case StatusContaCliente.ClienteEspecial:
-                    precoAposDesconto = new ClienteEspecial().AplicarDescontoStatusConta(precoProduto);
-                    descontoFidelidade.AplicarDescontoFidelidade(preco: precoProduto, tempoDeContaEmAnos: tempoDaContaEmAnos);
-                    break;
-
-                case StatusContaCliente.ClienteVIP:
-                    precoAposDesconto = new ClienteVIP().AplicarDescontoStatusConta(precoProduto);
-                    descontoFidelidade.AplicarDescontoFidelidade(preco: precoProduto, tempoDeContaEmAnos: tempoDaContaEmAnos);
-                    break;
-
-                default:
-                    throw new NotImplementedException();
-            }
+            precoAposDesconto = descontoFidelidade.AplicarDescontoFidelidade(precoProduto, tempoDaContaEmAnos);
 
             return precoAposDesconto;
         }
