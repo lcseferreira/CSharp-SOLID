@@ -8,6 +8,6 @@ namespace Exercicios.Exercicio5
 {
     internal interface ICalculaDescontoStatusConta
     {
-        decimal AplicarDescontoStatusConta(decimal preco, decimal descontoCliente);
+        decimal AplicarDescontoStatusConta(decimal preco);
     }
 }
