@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SOLID.SRP.PedidoSRP">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEBAAAEAAAAAAAAAAAABAAAAAQEAAAAAA=</HashCode>
+      <FileName>SRP\PedidoSRP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOLID.SRP.EnviarEmailSRP">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAgAAAAAAAAAABAAABAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>SRP\EnviarEmailSRP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOLID.SRP.RegistrarLogSRP">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>SRP\RegistrarLogSRP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SOLID.SRP.ILoggerSRP">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>SRP\ILoggerSRP.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

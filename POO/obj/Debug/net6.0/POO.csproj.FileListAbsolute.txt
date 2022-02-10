@@ -27,3 +27,4 @@ C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\ref\POO.dll
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.pdb
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.genruntimeconfig.cache
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.csproj.AssemblyReference.cache
