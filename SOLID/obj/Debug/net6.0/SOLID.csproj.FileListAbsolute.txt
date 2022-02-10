@@ -12,3 +12,4 @@ C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\SOLID\obj\Debug\net6.0\SO
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\SOLID\obj\Debug\net6.0\ref\SOLID.dll
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\SOLID\obj\Debug\net6.0\SOLID.pdb
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\SOLID\obj\Debug\net6.0\SOLID.genruntimeconfig.cache
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\SOLID\obj\Debug\net6.0\SOLID.csproj.AssemblyReference.cache

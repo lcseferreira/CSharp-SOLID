@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.OCP.Extensions
 {
+    // Classe com única responsabilidade
     public class DescontoClienteAssociado : PedidoOCP
     {
         public override double DescontaPedido(double valorFinal)
