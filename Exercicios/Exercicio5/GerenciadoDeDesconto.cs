@@ -8,26 +8,28 @@ namespace Exercicios.Exercicio5
 {
     internal class GerenciadorDeDesconto
     {
-        public decimal AplicarDesconto(decimal precoProduto, int statusContaCliente, int tempoDaContaEmAnos)
+        public decimal AplicarDesconto(decimal precoProduto, StatusContaCliente statusContaCliente, int tempoDaContaEmAnos)
         {
             decimal precoAposDesconto = 0;
             decimal descontPorFidelidade = (tempoDaContaEmAnos > 5) ? (decimal)5 / 100 : (decimal)tempoDaContaEmAnos / 100;
 
-            if (statusContaCliente == 1)
+            switch (statusContaCliente)
             {
-                precoAposDesconto = precoProduto;
-            }
-            else if (statusContaCliente == 2)
-            {
-                precoAposDesconto = (precoProduto - (0.1M * precoProduto)) - descontPorFidelidade * (precoProduto - (0.1M * precoProduto));
-            }
-            else if (statusContaCliente == 3)
-            {
-                precoAposDesconto = (0.7M * precoProduto) - descontPorFidelidade * (0.7M * precoProduto);
-            }
-            else if (statusContaCliente == 4)
-            {
-                precoAposDesconto = (precoProduto - (0.5M * precoProduto)) - descontPorFidelidade * (precoProduto - (0.5M * precoProduto));
+                case StatusContaCliente.NaoRegistrado:
+                    precoAposDesconto = precoProduto;
+                    break;
+
+                case StatusContaCliente.ClienteComum:
+                    precoAposDesconto = (precoProduto - (0.1M * precoProduto)) - descontPorFidelidade * (precoProduto - (0.1M * precoProduto));
+                    break;
+
+                case StatusContaCliente.ClienteEspecial:
+                    precoAposDesconto = (0.7M * precoProduto) - descontPorFidelidade * (0.7M * precoProduto);
+                    break;
+
+                case StatusContaCliente.ClienteVIP:
+                    precoAposDesconto = (precoProduto - (0.5M * precoProduto)) - descontPorFidelidade * (precoProduto - (0.5M * precoProduto));
+                    break;
             }
 
             return precoAposDesconto;
