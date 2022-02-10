@@ -19,6 +19,7 @@ C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\bin\Debug\net6.0\POO.
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\bin\Debug\net6.0\POO.dll
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\bin\Debug\net6.0\ref\POO.dll
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\bin\Debug\net6.0\POO.pdb
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.csproj.AssemblyReference.cache
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.AssemblyInfoInputs.cache
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.AssemblyInfo.cs
@@ -27,4 +28,3 @@ C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\ref\POO.dll
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.pdb
 C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.genruntimeconfig.cache
-C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\POO\obj\Debug\net6.0\POO.csproj.AssemblyReference.cache
