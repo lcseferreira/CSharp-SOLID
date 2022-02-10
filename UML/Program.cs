@@ -2,6 +2,7 @@
 using UML.ClasseAbstrata;
 using UML.ClasseSealed;
 using UML.Interface;
+using UML.InterfacePratica;
 
 var contaPoupanca = new ContaPoupanca(1, "Lucas Eduardo Ferreira da Rosa");
 
@@ -51,3 +52,12 @@ GravarXML gravarXML = new GravarXML();
 
 gravarJSON.GravarArquivo();
 gravarXML.GravarArquivo();
+
+Console.WriteLine();
+
+// Criando instância da nossa classe concreta
+var registraOcorrenciaConsole = new RegistraOcorrencia(new RegistrarConsole());
+registraOcorrenciaConsole.Registrar("Registro console");
+
+var registraOcorrenciaArquivo = new RegistraOcorrencia(new RegistrarArquivo(@"C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\teste.txt"));
+registraOcorrenciaArquivo.Registrar("Registro arquivo");
