@@ -20,15 +20,18 @@ namespace Exercicios.Exercicio5
                     break;
 
                 case StatusContaCliente.ClienteComum:
-                    precoAposDesconto = (precoProduto - (0.1M * precoProduto)) - descontPorFidelidade * (precoProduto - (0.1M * precoProduto));
+                    precoAposDesconto = (precoProduto - (0.1M * precoProduto));
+                    precoAposDesconto -= (descontPorFidelidade * precoAposDesconto);
                     break;
 
                 case StatusContaCliente.ClienteEspecial:
-                    precoAposDesconto = (0.7M * precoProduto) - descontPorFidelidade * (0.7M * precoProduto);
+                    precoAposDesconto = (precoProduto - (0.3M * precoProduto));
+                    precoAposDesconto -= (descontPorFidelidade * precoAposDesconto);
                     break;
 
                 case StatusContaCliente.ClienteVIP:
-                    precoAposDesconto = (precoProduto - (0.5M * precoProduto)) - descontPorFidelidade * (precoProduto - (0.5M * precoProduto));
+                    precoAposDesconto = (precoProduto - (0.5M * precoProduto));
+                    precoAposDesconto -= (descontPorFidelidade * precoAposDesconto);
                     break;
 
                 default:
