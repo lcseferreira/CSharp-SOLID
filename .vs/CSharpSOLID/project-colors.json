@@ -20,7 +20,22 @@
       "ProjectGuid": "39dfe83e-4ff4-4c69-9233-4f97bfff5fb3",
       "DisplayName": "UML",
       "ColorIndex": 2
+    },
+    "83770676-7803-4534-a013-5d4e7843980a": {
+      "ProjectGuid": "83770676-7803-4534-a013-5d4e7843980a",
+      "DisplayName": "SOLID",
+      "ColorIndex": 3
+    },
+    "4a1c6c82-27cc-4f51-b2f4-1a9515aa33fd": {
+      "ProjectGuid": "4a1c6c82-27cc-4f51-b2f4-1a9515aa33fd",
+      "DisplayName": "POO",
+      "ColorIndex": 4
+    },
+    "15e31389-9ba9-409c-a8c7-e3e25771a47a": {
+      "ProjectGuid": "15e31389-9ba9-409c-a8c7-e3e25771a47a",
+      "DisplayName": "Exercicios",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }

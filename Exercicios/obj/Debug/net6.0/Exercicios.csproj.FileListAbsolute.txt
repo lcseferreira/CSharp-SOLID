@@ -1,0 +1,15 @@
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\bin\Debug\net6.0\Exercicios.exe
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\bin\Debug\net6.0\Exercicios.deps.json
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\bin\Debug\net6.0\Exercicios.runtimeconfig.json
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\bin\Debug\net6.0\Exercicios.dll
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\bin\Debug\net6.0\ref\Exercicios.dll
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\bin\Debug\net6.0\Exercicios.pdb
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.csproj.AssemblyReference.cache
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.AssemblyInfoInputs.cache
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.AssemblyInfo.cs
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.dll
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\ref\Exercicios.dll
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.pdb
+C:\Users\lcsef\Documents\Workspaces\dotnet-udemy\SOLID\Exercicios\obj\Debug\net6.0\Exercicios.genruntimeconfig.cache
