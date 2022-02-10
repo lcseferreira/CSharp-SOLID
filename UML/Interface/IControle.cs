@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UML
+namespace UML.Interface
 {
     // Interface não pode conter campos e construtores
     internal interface IControle

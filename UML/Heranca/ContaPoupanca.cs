@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UML.Banco
+namespace UML.Heranca
 {
     public class ContaPoupanca : Conta
     {
